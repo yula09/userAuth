@@ -1,4 +1,4 @@
-const db = require('../config/db');
+const db = require('../Config/db');
 
 exports.getAdminDashboard = async (req, res) => {
     res.render('admin/dashboard', { message: null });
