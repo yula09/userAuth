@@ -1,4 +1,4 @@
-const db = require('../config/db');
+const db = require('../Config/db');
 
 
 //create new user tabke if not exists
