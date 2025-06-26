@@ -3,8 +3,8 @@ const path = require('path');
 require('dotenv').config();
 const cookieParser = require('cookie-parser');
 const session = require('express-session');
-const { createUserTable } = require('./Models/userModel');
-const {createFoodTable}=require('./Models/foodModel');
+const { createUserTable } = require('./models/userModel');
+const {createFoodTable}=require('./models/foodModel');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
